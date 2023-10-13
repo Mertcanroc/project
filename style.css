@@ -1,0 +1,45 @@
+body {
+    background-image: url("/images/glow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    text-align: center;
+}
+
+#menu, #options {
+    display: none;
+}
+
+button {
+    font-size: 30px;
+    color: black;
+    padding: 5px;
+    margin: 50px;
+    border: 3px solid black;
+    background-color: rgb(252, 0, 252);
+    border: 3px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-radius: 15%;
+}
+
+#outcome {
+    position: absolute;
+    top: 255px; /* Adjust the top position as needed */
+    left: 950px;
+    transform: translateX(-50%);
+    color: lightpink;
+    font-weight: bold;
+    font-size: 55px;
+    -webkit-text-stroke: 2px aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#start-button {
+    font-size: 60px;
+    margin: 140px;
+}
+
+#score {
+    color: white;
+}
